@@ -1,0 +1,98 @@
+{
+  "id": "f473fe28-de93-422b-8a0f-f16dd08cac0f",
+  "parentId": "a7d1430e-5a5d-4507-b775-21c3abfc3697",
+  "rootParentId": "448156b3-3191-44d8-bd49-2f038c26c92e",
+  "name": "ContactInfoIntent",
+  "auto": true,
+  "contexts": [
+    "OrderPizzaIntent-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "OrderPizzaIntent.OrderPizzaIntent-yes.OrderPizzaIntent-yes-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b293fb4d-cd92-4e9d-8c7c-26e59043276c",
+          "name": "phone",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can I have your phone number for your order?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "511d56f6-6c42-4a55-bd13-972906a955b8",
+          "name": "name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can I have your name for the order?"
+            },
+            {
+              "lang": "en",
+              "value": "Please enter your name for your order?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "de11bbf8-d576-44c2-8d47-a29720be29be",
+          "name": "person",
+          "required": false,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you $name. Your order will be ready in 20 minutes.",
+            "Thanks $name. Your order will be ready in 20 minutes.",
+            "Thank you  $name for ordering pizza. Your order will be ready in 15 minutes."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "5edb00be-6cab-4b0d-b981-dfcbc8deb7cf",
+  "parentId": "448156b3-3191-44d8-bd49-2f038c26c92e",
+  "rootParentId": "448156b3-3191-44d8-bd49-2f038c26c92e",
+  "name": "OrderPizzaIntent - no",
+  "auto": true,
+  "contexts": [
+    "OrderPizzaIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "OrderPizzaIntent.OrderPizzaIntent-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, What would you like?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "8e6202a0-5fe7-46ee-b065-06c5d1a0acfe",
+  "name": "PizzaSize",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

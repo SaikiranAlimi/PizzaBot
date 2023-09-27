@@ -1,0 +1,9 @@
+{
+  "id": "8fab1523-40a7-4820-9f53-cb3cf60f8cde",
+  "name": "PizzaCrustStyle",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

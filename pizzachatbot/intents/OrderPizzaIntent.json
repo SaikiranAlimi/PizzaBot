@@ -1,0 +1,106 @@
+{
+  "id": "448156b3-3191-44d8-bd49-2f038c26c92e",
+  "name": "OrderPizzaIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "OrderPizzaIntent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a74f7110-5c27-4eaf-9533-c8eb2849af0a",
+          "name": "size",
+          "required": true,
+          "dataType": "@PizzaSize",
+          "value": "$size",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What size of pizza would you like?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6a1517fd-14e4-435f-b1a8-28c910708808",
+          "name": "ingredients",
+          "required": true,
+          "dataType": "@PizzaIngredient",
+          "value": "$ingredients",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What ingredients would you like on your pizza?"
+            },
+            {
+              "lang": "en",
+              "value": "Any ingredients for your pizza?"
+            },
+            {
+              "lang": "en",
+              "value": "What ingredients would you like to add your pizza?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ad0c90a1-2c91-4e35-9a26-d72c4ec6c1e6",
+          "name": "crust",
+          "required": true,
+          "dataType": "@PizzaCrustStyle",
+          "value": "$crust",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What type of curst style do you want? Thin or Regular?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks. You ordered a $size $crust crust pizza with $ingredients. Is that right?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

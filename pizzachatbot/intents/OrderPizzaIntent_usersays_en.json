@@ -1,0 +1,233 @@
+[
+  {
+    "id": "67734a76-5bd4-4b62-b7dc-07a196e1fe3c",
+    "data": [
+      {
+        "text": "Regular",
+        "meta": "@PizzaCrustStyle",
+        "alias": "crust",
+        "userDefined": true
+      },
+      {
+        "text": " crust pizza with ",
+        "userDefined": false
+      },
+      {
+        "text": "mushroooms",
+        "meta": "@PizzaIngredient",
+        "alias": "ingredients",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ef0cbd7-7d01-4a8a-84c8-feb17536029d",
+    "data": [
+      {
+        "text": "I would like a ",
+        "userDefined": false
+      },
+      {
+        "text": "small",
+        "meta": "@PizzaSize",
+        "alias": "size",
+        "userDefined": false
+      },
+      {
+        "text": " thin crust pizza with ",
+        "userDefined": false
+      },
+      {
+        "text": "pineapple",
+        "meta": "@PizzaIngredient",
+        "alias": "ingredients",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "sausage",
+        "meta": "@PizzaIngredient",
+        "alias": "ingredients",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "390e085f-b458-499c-9474-b113848e2001",
+    "data": [
+      {
+        "text": "I want a ",
+        "userDefined": false
+      },
+      {
+        "text": "small",
+        "meta": "@PizzaSize",
+        "alias": "size",
+        "userDefined": true
+      },
+      {
+        "text": " pizza  with the ",
+        "userDefined": false
+      },
+      {
+        "text": "sausage",
+        "meta": "@PizzaIngredient",
+        "alias": "ingredients",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "mushrooms",
+        "meta": "@PizzaIngredient",
+        "alias": "ingredients",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b69a0d1d-c063-42a3-bfc3-166c61d99ea4",
+    "data": [
+      {
+        "text": "Can I have a ",
+        "userDefined": false
+      },
+      {
+        "text": "large",
+        "meta": "@PizzaSize",
+        "alias": "size",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "sausage",
+        "meta": "@PizzaIngredient",
+        "alias": "ingredients",
+        "userDefined": true
+      },
+      {
+        "text": " pizza?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b24204c4-500c-4aa9-a7df-54922526da4f",
+    "data": [
+      {
+        "text": "Take my pizza order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "57c53b8f-c118-4ced-b8cf-83293d396292",
+    "data": [
+      {
+        "text": "Could you please order a pizza for me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "da210dc1-82a6-4f58-8b4d-7433b3df5aeb",
+    "data": [
+      {
+        "text": "Can I make a pizza order?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1c39931f-cf64-4683-83f6-b489a1d564f2",
+    "data": [
+      {
+        "text": "will you help me with my pizza order?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7ab180af-7284-4a2c-bf76-8103d971eb95",
+    "data": [
+      {
+        "text": "I want pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cb910907-14fa-4ef1-ae01-796b27331b7a",
+    "data": [
+      {
+        "text": "pizza order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "15370de4-7375-4def-a786-7f6e6e869c21",
+    "data": [
+      {
+        "text": "I want to order pizza.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

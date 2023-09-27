@@ -1,0 +1,106 @@
+[
+  {
+    "id": "036aeec5-becf-4097-a0e4-754438a6402c",
+    "data": [
+      {
+        "text": "what about special pizza with you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f5567e5c-78ee-47fc-816f-9d39447711ed",
+    "data": [
+      {
+        "text": "Any pizza specials available",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cee8e105-1624-452b-944e-7aa04a4fed8c",
+    "data": [
+      {
+        "text": "Do you have any pizza specials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "014be537-9fa8-46b3-980a-35b4f72ad35c",
+    "data": [
+      {
+        "text": "What special pizzas are available with you?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e24543a3-45af-4451-80d0-3124b9f2e3ed",
+    "data": [
+      {
+        "text": "Do you have a special?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e7acaf21-6a8b-45f9-a076-290944f02624",
+    "data": [
+      {
+        "text": "specials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "30d9263a-124c-4969-88fd-43b5708e6659",
+    "data": [
+      {
+        "text": "do you have a deal of the day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "931cd4bc-4c27-42c8-9150-8bc1e808c76a",
+    "data": [
+      {
+        "text": "deals",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

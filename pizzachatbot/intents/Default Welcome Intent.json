@@ -1,0 +1,44 @@
+{
+  "id": "907dbcdf-66e8-4542-aa06-845672907893",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hello, I can help you with your pizza order. What can I get for you today?",
+            "Hello, How can I help you? with you in ordering your pizza?",
+            "Greetings, What can I do for you with your pizza order?",
+            "Welcome, I am here to take your pizza order.",
+            "It\u0027s nice day, What pizza can  I order for you?",
+            "I can take and place your pizza order based upon your interest. What can I order for you?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
